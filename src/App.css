@@ -1,9 +1,14 @@
 .App {
-  text-align: center;
+  display: grid;
+  grid-template-areas: "head head"
+                        "side content";
+  grid-template-rows: 10vh auto;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 1vh;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 7vmin;
   pointer-events: none;
 }
 
@@ -14,12 +19,13 @@
 }
 
 .App-header {
+  grid-area: head;
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +41,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.content{
+  grid-area: content;
+  background-color: forestgreen;
+  min-height: 90vh;
+  padding: 15px;
 }

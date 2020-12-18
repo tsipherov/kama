@@ -1,0 +1,6 @@
+.sidebar{
+    grid-area: side;
+    background-color: lightcoral;
+    /* min-height: 90vh; */
+    padding: 15px;
+  }

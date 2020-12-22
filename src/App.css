@@ -51,3 +51,35 @@
   min-height: 90vh;
   padding: 15px;
 }
+
+.profile-bgimage{
+  /* height: 30vh; */
+  width: 100%;
+  /* overflow: hidden; */
+  /* margin-bottom: 50px; */
+  
+}
+
+.container-profile-img {
+  height: 30vh;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.user-ava{
+  height: 100px;
+  width: 100px;
+  margin-right: 50px;
+}
+
+.profile-user-name{
+  color: goldenrod;
+  font-size: 58px;
+}
+.msg-item{
+  background-color: rgb(221, 233, 6);
+  border: 2px solid rgb(236, 66, 4);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
